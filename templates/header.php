@@ -21,7 +21,7 @@
         <a data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
         <a href="/" class="brand-logo center"><img class="logo" /></a>
         <ul class="right hide-on-med-and-down">
-            <li class="btn-large waves-effect openMenu blue-grey darken-1"><a onclick="$('.menu').toggleClass('hide'); $('header').toggleClass('show');" >Menu</a></li>
+            <li class="btn-large waves-effect openMenu blue-grey darken-1"><a onclick="$('.menu').toggleClass('hide'); $('.header').toggleClass('show');" >Menu</a></li>
         </ul>
       </div>
     </nav>

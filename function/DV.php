@@ -15,6 +15,10 @@ class DV {
 
     var $menu = array(
         array(
+            'name' => "Home",
+            'url' => "/"
+        ),
+        array(
             'name' => "Youtube",
             'url' => "/youtube/"
         ),
