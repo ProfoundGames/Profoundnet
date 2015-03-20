@@ -22,7 +22,7 @@ $headContent;
 $includeCSS = array();
 
 if (file_exists($_SERVER['DOCUMENT_ROOT'] . '/css/materialize.min.css')) {
-    $includeCSS[] = '/css/materialize.min.css';
+    $includeCSS[] = '';
 }
 else {
     echo'<h1>Something went wrong</p>';
@@ -37,10 +37,6 @@ else {
     die();
 }
 
-foreach ($includeCSS as $value) {
-    $headContent .= '<link href="' . $value . '" rel="stylesheet" type="text/css"/>';
-}
-
 //JAVASCRIPT INCLUDE
 $includeJS = array();
 
@@ -52,13 +48,13 @@ else {
     die();
 }
 
-foreach ($includeJS as $value) {
-    $headContent .= '<script src="' . $value . '" type="text/javascript"></script>';
-}
 ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="/js/materialize.min.js"></script>
 <script type="text/javascript" src="/js/default.js"></script>
+
+<link href="/css/default.css" rel="stylesheet" type="text/css"/>
+<link href="/css/materialize.min.css" rel="stylesheet" type="text/css"/>
 
 <?php echo $headContent; ?>
