@@ -1,4 +1,15 @@
-<center style="height:100%;"><h1>Nothing here yet!</h1>
-
-<p>Come back later, I have some cool stuff planned.</p>
-</center>
+<html>
+    
+    <head>
+        
+        <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/function/head.php'; ?>
+        
+    </head>
+    
+    <body>
+        
+        <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/templates/header.php'; ?>
+        
+    </body>
+    
+</html>

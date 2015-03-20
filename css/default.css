@@ -1,0 +1,21 @@
+.logo{
+    content: url('/image/logo.png');
+    width: auto;
+    height: 100%;
+}
+
+.header > nav{
+    height: 150px;
+}
+
+@media only screen and (max-device-width: 640px){
+    .logo{
+    content: url('/image/logoM.png');
+    width: auto;
+    height: 100%;
+}
+
+.header > nav{
+    height: 60px;
+}
+}
