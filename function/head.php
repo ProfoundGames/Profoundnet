@@ -27,15 +27,15 @@ $headContent;
 //CSS INCLUDE
 $includeCSS = array();
 
-if (file_exists($_SERVER['DOCUMENT_ROOT'] . '/css/materialize.min.css')) {
-    $includeCSS[] .= $_SERVER['DOCUMENT_ROOT'] . '/css/materialize.min.css';
+if (file_exists('/css/materialize.min.css')) {
+    $includeCSS[] .= '/css/materialize.min.css';
 }else {
     echo'<h1>Something went wrong</p>';
     die();
 }
 
-if (file_exists($_SERVER['DOCUMENT_ROOT'] . '/css/default.css')) {
-    $includeCSS[] .= $_SERVER['DOCUMENT_ROOT'] . '/css/default.min.css';
+if (file_exists('/css/default.css')) {
+    $includeCSS[] .= '/css/default.min.css';
 }else {
     echo'<h1>Something went wrong</p>';
     die();
