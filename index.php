@@ -2,7 +2,7 @@
     
     <head>
         
-        <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/function/head.php'; ?>
+        <?php //include_once $_SERVER['DOCUMENT_ROOT'] . '/function/head.php'; ?>
         
     </head>
     
