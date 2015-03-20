@@ -8,14 +8,29 @@
     height: 150px;
 }
 
-@media only screen and (max-device-width: 640px){
-    .logo{
-    content: url('/image/logoM.png');
-    width: auto;
-    height: 100%;
+div.menu{
+    -webkit-transition: .3s ;
+    -moz-transition: .3s ;
+    -o-transition: .3s ;
+    transition: .3s;
 }
 
-.header > nav{
-    height: 60px;
+div.show{
+    padding-bottom: -64px;
 }
+
+.hide{
+    height: 0px;
+}
+
+@media only screen and (max-width: 992px){
+    .logo{
+        content: url('/image/logoM.png');
+        width: auto;
+        height: 100%;
+    }
+
+    .header > nav{
+        height: 60px;
+    }
 }
