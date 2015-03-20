@@ -41,20 +41,6 @@ foreach ($includeCSS as $value) {
     $headContent .= '<link href="' . $value . '" rel="stylesheet" type="text/css"/>';
 }
 
-//JAVASCRIPT INCLUDE
-$includeJS = array();
-
-if (file_exists($_SERVER['DOCUMENT_ROOT'] . '/js/materialize.min.js')) {
-    $includeJS[] .= '/js/materialize.min.js';
-}
-else {
-    echo'<h1>Something went wrong</p>';
-    die();
-}
-
-foreach ($includeJS as $value) {
-    $headContent .= '<script src="' . $value . '" type="text/javascript"></script>';
-}
 ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
