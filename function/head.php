@@ -16,6 +16,10 @@
  * 20-3-15 15:12: initial creation
  */
 
+require_once '/debug/Kint.class.php';
+
+include '/function/DV.php';
+
 ?>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>

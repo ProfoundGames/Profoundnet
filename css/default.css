@@ -23,11 +23,20 @@ div.show{
     height: 0px !important;
 }
 
+.side-nav li{
+    padding: 10px 0px 10px 10px !important;
+    width: 100%;
+}
+
 @media only screen and (max-width: 992px){
     .logo{
         content: url('/image/logoM.png');
         width: auto;
         height: 100%;
+    }
+
+    .menu{
+        height: 0px !important;
     }
 
     .header > nav{
