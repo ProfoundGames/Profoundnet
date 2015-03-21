@@ -1,7 +1,7 @@
 <div class='container'>
     <div class='row'>
 
-        <div class='col s8'>
+        <div class='col s11'>
 
             <div class="card medium">
                 <div class="card-image waves-effect waves-block waves-light">
@@ -21,7 +21,7 @@
     </div>
     <div class='row'>
 
-        <div class='col s8 offset-s4'>
+        <div class='col s11 offset-s1'>
 
             <div class="card medium">
                 <div class="card-image waves-effect waves-block waves-light">
@@ -43,7 +43,7 @@
     </div>
     <div class='row'>
 
-        <div class='col s8'>
+        <div class='col s11'>
 
             <div class="card medium">
                 <div class="card-image waves-effect waves-block waves-light">
