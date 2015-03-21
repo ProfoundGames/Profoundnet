@@ -83,4 +83,9 @@ div.contentContainer{
     .header > nav{
         height: 60px;
     }
+    
+    .container{
+        width: 100% !important;
+    }
+    
 }
