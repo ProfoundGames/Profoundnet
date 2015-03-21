@@ -31,28 +31,62 @@ class DV {
             'url' => "/social/"
         ),
         array(
-            'name' => "Other",
-            'url' => "/other/"
+            'name' => "Other projects",
+            'url' => "/other-projects/"
         )
     );
-    
+    var $homeCards = array(
+        array(
+            'imageURL' => "",
+            'cardTitle' => "",
+            'cardContent' => "",
+            'cardAction' => array(
+                
+            )
+        ),
+        array(
+            'imageURL' => "",
+            'cardTitle' => "",
+            'cardContent' => "",
+            'cardAction' => array(
+                
+            )
+        ),
+        array(
+            'imageURL' => "",
+            'cardTitle' => "",
+            'cardContent' => "",
+            'cardAction' => array(
+                
+            )
+        ),
+        array(
+            'imageURL' => "",
+            'cardTitle' => "",
+            'cardContent' => "",
+            'cardAction' => array(
+                
+            )
+        ),
+        
+    );
+
     function genMenu() {
         foreach ($this->menu as $value) {
             echo '<li class="waves-effect"><a href="' . $value['url'] . '">' . $value['name'] . '</a></li>';
         }
     }
-    
+
     function genMenuMobile() {
         foreach ($this->menu as $value) {
             echo '<li class="waves-effect"><a href="' . $value['url'] . '">' . $value['name'] . '</a></li>';
         }
     }
-    
+
     function genMenufooter() {
         foreach ($this->menu as $value) {
             echo '<li><a class="grey-text text-lighten-3" href="' . $value['url'] . '">' . $value['name'] . '</a></li>';
         }
     }
-    
-    
+
 }
