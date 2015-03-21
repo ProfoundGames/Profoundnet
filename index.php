@@ -11,11 +11,11 @@
         <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/templates/header.php'; ?>
         <div class="contentContainer">
             
-            <center>
-                <h1>Test Pagina</h1>
-            </center>
+           <?php include_once $_SERVER['DOCUMENT_ROOT']. '/function/pageController.php'; ?>
             
         </div>
+        
+        <?php include_once $_SERVER['DOMUMENT_ROOT'] . '/templates/footer.php'; ?>
         
     </body>
     

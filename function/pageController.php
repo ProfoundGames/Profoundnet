@@ -3,7 +3,7 @@
     $page = htmlspecialchars($_GET["page"]);
     
      if (empty($page)) {
-                include '/include/home.php';
+                include '/page/home.php';
             } else {
                 if (file_exists($_SERVER['DOCUMENT_ROOT'] . '/page/' . $page . '.php')) {
                     include $_SERVER['DOCUMENT_ROOT'] . '/page/' . $page . '.php';

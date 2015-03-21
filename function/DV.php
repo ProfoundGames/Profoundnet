@@ -48,4 +48,11 @@ class DV {
         }
     }
     
+    function genMenufooter() {
+        foreach ($this->menu as $value) {
+            echo '<li><a class="grey-text text-lighten-3" href="' . $value['url'] . '">' . $value['name'] . '</a></li>';
+        }
+    }
+    
+    
 }
