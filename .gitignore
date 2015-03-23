@@ -1,7 +1,7 @@
 ### Other Things ###
 
 /forum/
-/owncloud17071993/
+/owncloud/
 
 ### NetBeans ###
 nbproject/private/
@@ -12,3 +12,7 @@ nbdist/
 nbactions.xml
 nb-configuration.xml
 .nb-gradle/
+
+
+### File types to ignore ###
+*.psd

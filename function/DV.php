@@ -33,7 +33,11 @@ class DV {
         array(
             'name' => "Other projects",
             'url' => "/other-projects/"
-        )
+        ),
+        array(
+            'name' => "ownCloud",
+            'url' => "/owncloud/"
+        ),
     );
     var $homeCards = array(
         array(
