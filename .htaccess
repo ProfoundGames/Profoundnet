@@ -3,7 +3,8 @@ Options +FollowSymlinks
     RewriteEngine On
     RewriteRule ^([a-zA-Z0-9]+)$ ?page=$1
     RewriteRule ^([a-zA-Z0-9]+)/$ ?page=$1
-
+	
+	RewriteBase /s/ /
 
     RewriteBase /
     RewriteCond %{REQUEST_FILENAME} !-f
