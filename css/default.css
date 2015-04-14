@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo{
+    content: url('/image/logoM2.png');
+    width: auto;
+    height: 100%;
+}
+
+body{
+    background: -webkit-linear-gradient(left top, white , #B4C4CC); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, white, #B4C4CC); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, white, #B4C4CC); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, white , #B4C4CC); /* Standard syntax */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header > nav{
+    height: 150px;
+}
+
+div.menu, div.header{
+    -webkit-transition: .3s ;
+    -moz-transition: .3s ;
+    -o-transition: .3s ;
+    transition: .3s;
+}
+
+div.show{
+    margin-bottom: -64px !important;
+}
+
+.hide{
+    height: 0px !important;
+}
+
+.side-nav li{
+    padding: 10px 0px 10px 10px !important;
+    width: 100%;
+}
+
+.side-nav a{
+    padding: 10px 0px 10px 10px !important;
+    width: 100%;
+}
+
+.openMenu{
+    padding: 0px 0px !important;
+}
+
+.openMenu a{
+    padding: 0px 2rem !important;
+}
+
+
+.side-nav a{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    height: 150px !important;
+}
+
+div.contentContainer{
+    width: 100%;
+    min-height: 50%;
+}
+
+.card-image > img{
+    width: 100% !important;
+    height: auto;
+    position: relative;
+    bottom: 0px;
+}
+
+@media only screen and (max-width: 992px){
+    .logo{
+        content: url('/image/logoM2.png');
+        width: auto;
+        height: 100%;
+    }
+
+    .header{
+        height: 60px !important;
+    }
+
+    div.show{
+        margin-bottom: 0px !important;
+    }
+
+    .menu{
+        height: 0px !important;
+    }
+
+    .header > nav{
+        height: 60px;
+    }
+    
+    .container{
+        width: 100% !important;
+        padding: 0 0.5rem !important;
+    }
+    
+    .card-image > img{
+        height: auto;
+        width: 100% !important;
+    }
+    
+    .card-image{
+        background-color: #cccccc;
+    }
+    
+}
