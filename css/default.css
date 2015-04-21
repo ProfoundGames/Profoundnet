@@ -114,7 +114,7 @@ div.social {
   -ms-transform: translate(110px, 0);
   -o-transform: translate(110px, 0);
   transform: translate(110px, 0);
-  background: rgba(255, 255, 255, 0.0);
+  background: rgba(255, 255, 255, 1);
 }
 .social ul li:hover a {
   color: #000;
