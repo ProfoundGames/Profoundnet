@@ -32,7 +32,7 @@ class DV {
         ),
         array(
             'name' => "Other projects",
-            'url' => "/other-projects/"
+            'url' => "/otherprojects/"
         ),
         array(
             'name' => "ownCloud",

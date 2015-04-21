@@ -1,5 +1,7 @@
 <?php
-
+    
+    @include '/include/social.php';
+    
     $page = htmlspecialchars($_GET["page"]);
     
      if (empty($page)) {
