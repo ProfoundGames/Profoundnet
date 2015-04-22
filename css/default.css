@@ -81,7 +81,7 @@ div.contentContainer{
 //social Links stuffs
 div.social {
   position: fixed;
-  top: 2000px;
+  
   box-sizing: content-box;
 }
 .social ul {
@@ -195,10 +195,6 @@ div.social {
     
     .row .col.offset-s1{
         margin-left: 0px !important;
-    }
-    
-    .social{
-        display: none;
     }
     
 }

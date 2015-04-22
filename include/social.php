@@ -1,4 +1,4 @@
-<div class="social" style="position: fixed;">
+<div class="social" style="position: fixed; z-index: 100;left: 15px;">
           <ul>
               <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
               <li class="z-depth-2 waves-effect waves-red"><a href="http://profoundnet.com/s/ProfoundGamesYT/" class="red-text">Youtube <i class="fa fa-youtube"></i></a></li>
