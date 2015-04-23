@@ -1,7 +1,5 @@
 <?php
-    
-    $dv = new DV();
-    
+$dv = new DV();
 ?>
 
 <footer class="page-footer blue-grey">
@@ -9,7 +7,9 @@
         <div class="row">
             <div class="col l6 s12">
                 <h5 class="white-text">About me</h5>
-                <p class="grey-text text-lighten-4">Well because you are at the bottom of the page, you might want to know more about me! Then be sure you check out my twitter. that is the place where i'm the most active!</p>
+                <div class="socialFooterWrapper">
+                    <?php $dv->SocialFooter(); ?>
+                </div>
             </div>
             <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Site map</h5>
