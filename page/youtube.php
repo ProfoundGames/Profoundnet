@@ -1,5 +1,5 @@
-<div class='container'>
-    <h1 class="center">
-        Youtube
-    </h1>
+
+
+<div class='container Youtube' style="width: 100%; max-width: none; padding: 0;">
+    <?php include '/include/youtubeInfo.php'; ?>
 </div>

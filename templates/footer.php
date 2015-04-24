@@ -6,7 +6,7 @@ $dv = new DV();
     <div class="container">
         <div class="row">
             <div class="col l6 s12">
-                <h5 class="white-text">About me</h5>
+                <h5 class="white-text">Links!</h5>
                 <div class="socialFooterWrapper">
                     <?php $dv->SocialFooter(); ?>
                 </div>

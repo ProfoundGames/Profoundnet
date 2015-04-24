@@ -189,6 +189,19 @@ div.social {
     transition: all .3s;
 }
 
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 
 @media only screen and (max-width: 992px){
     .logo{
@@ -234,5 +247,8 @@ div.social {
     .row .col.offset-s1{
         margin-left: 0px !important;
     }
-
+    
+    .social{
+        display: none;
+    }
 }
