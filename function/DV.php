@@ -94,7 +94,7 @@ class DV {
     
     function SocialPage($param) {
         foreach ($this->socialLinks as $value) {
-            echo '<li class="z-depth-2 waves-effect ' . $value['SocialWavesColor'] . '"><a href="' . $value['socialLink'] . '" class="' . $value['socialLogoColor'] . '">Youtube <i class="fa ' . $value['socialFA'] . '"></i></a></li>';
+            echo '<li class="z-depth-2 waves-effect ' . $value['SocialWavesColor'] . '"><a href="' . $value['socialLink'] . '" class="' . $value['socialLogoColor'] . '">' . $value['socialName']. '<i class="fa ' . $value['socialFA'] . '"></i></a></li>';
         }
     }
     

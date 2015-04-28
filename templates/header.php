@@ -15,7 +15,7 @@
     </nav>
   </div>
 
-  <div class="navbar-fixed header">
+  <div class="navbar-fixed header overLay">
     <nav>
       <div class="nav-wrapper blue-grey">
         <a data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>

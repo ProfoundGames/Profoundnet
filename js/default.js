@@ -5,4 +5,8 @@ $( document ).ready(function() {
         $('.header').removeClass('show');
     });
     
+    if(window.self === window.top){
+        $alert();
+    }
+    
 });
