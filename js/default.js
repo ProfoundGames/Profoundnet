@@ -4,9 +4,4 @@ $( document ).ready(function() {
         $('.menu').addClass('hide');
         $('.header').removeClass('show');
     });
-    
-    if(window.self === window.top){
-        $alert();
-    }
-    
 });
