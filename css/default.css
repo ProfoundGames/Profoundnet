@@ -274,8 +274,9 @@ h3{
         display: none;
     }
     
-    h3{
-        font-size: 1rem !important;
+    .youtubeContainer > h3{
+        line-height: normal;
+        font-size: 1.3rem !important;
     }
     
     .youtube{
@@ -283,9 +284,16 @@ h3{
     padding-right: 0%;
     }
     
-    .videoWrapper iframe {
-	width: 78%;
-	height: 71%;
-}
+    .videoWrapper{
+        padding-left: 1%;
+    }
     
+    .videoWrapper iframe {
+	width: 102%;
+	height: 88%;
+    }
+    
+    .parallax img{
+        background-size: cover;
+    }
 }
