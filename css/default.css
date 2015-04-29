@@ -274,8 +274,18 @@ h3{
         display: none;
     }
     
+    h3{
+        font-size: 1rem !important;
+    }
+    
     .youtube{
     padding-left: 0%;
     padding-right: 0%;
+    }
+    
+    .videoWrapper iframe {
+	width: 78%;
+	height: 71%;
 }
+    
 }
