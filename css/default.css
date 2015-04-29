@@ -199,13 +199,18 @@ div.social {
 .videoWrapper iframe {
 	position: absolute;
 	width: 75%;
-	height: 75%;
+	height: 72%;
         margin-left: auto;
         margin-right: auto;
 }
 
 h3{
     text-align: center;
+}
+
+.youtube{
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 @media only screen and (max-width: 992px){
