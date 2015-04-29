@@ -12,20 +12,25 @@
     
     $pageContent;
     
-    $pageContent .= '';
+    $pageContent .= '<script>
+                        $(document).ready(function () {
+                            $(".page-footer").css({ "margin-top": "0px"});
+                        });
+                        </script>';
     
     foreach ($channelUploadItems as $value) {
     
-        $pageContent .= '<div class="parallax-container">
-                            <div class="parallax"><img src="'. $value->snippet->thumbnails->maxres->url .'"></div>
-                        </div>
+        $pageContent .= '
                         <div class="section white youtube z-depth-2 '. $value->snippet->resourceId->videoId .'">
                             <div class="row container" style="width: 100%; max-width: none;">
                                 <h3 class="header" style="height: auto !important;">'. $value->snippet->title .'</h3>
                                <div class="videoWrapper">
-                                    <iframe class="z-depth-1 YoutubePlayer YoutubePlayer'. $value->snippet->resourceId->videoId .'" width="640" height="390" src="http://www.youtube.com/embed/'. $value->snippet->resourceId->videoId .'?controls=2" frameborder="0" allowfullscreen controls=0></iframe>
+                                    <iframe class="YoutubePlayer YoutubePlayer'. $value->snippet->resourceId->videoId .'" width="640" height="390" src="http://www.youtube.com/embed/'. $value->snippet->resourceId->videoId .'?controls=2" frameborder="0" allowfullscreen controls=0></iframe>
                                 </div>
                             </div>
+                        </div>
+                        <div class="parallax-container">
+                            <div class="parallax"><img src="'. $value->snippet->thumbnails->maxres->url .'"></div>
                         </div>
                         <script>
                         $(document).ready(function () {
@@ -33,9 +38,7 @@
                                 function() {
                                     $(this).addClass("z-depth-5");
                                     $(this).addClass("youtubePlayerHover");
-                                    $(this).removeClass("z-depth-1");
                                 }, function() {
-                                    $(this).addClass("z-depth-1");
                                     $(this).removeClass("z-depth-5");
                                     $(this).removeClass("youtubePlayerHover");
                                 }
