@@ -23,10 +23,27 @@
                             <div class="row container" style="width: 100%; max-width: none;">
                                 <h3 class="header" style="height: auto !important;">'. $value->snippet->title .'</h3>
                                <div class="videoWrapper">
-                                    <iframe width="640" height="390" src="http://www.youtube.com/embed/'. $value->snippet->resourceId->videoId .'?controls=2" frameborder="0" allowfullscreen controls=0></iframe>
+                                    <iframe class="z-depth-1 YoutubePlayer YoutubePlayer'. $value->snippet->resourceId->videoId .'" width="640" height="390" src="http://www.youtube.com/embed/'. $value->snippet->resourceId->videoId .'?controls=2" frameborder="0" allowfullscreen controls=0></iframe>
                                 </div>
                             </div>
-                        </div>';        
+                        </div>
+                        <script>
+                        $(document).ready(function () {
+                            $( ".YoutubePlayer'. $value->snippet->resourceId->videoId .'" ).hover(
+                                function() {
+                                    $(this).addClass("z-depth-5");
+                                    $(this).addClass("youtubePlayerHover");
+                                    $(this).removeClass("z-depth-1");
+                                }, function() {
+                                    $(this).addClass("z-depth-1");
+                                    $(this).removeClass("z-depth-5");
+                                    $(this).removeClass("youtubePlayerHover");
+                                }
+                            );
+                        });
+                        </script>
+
+';        
 }
     
     //var_dump($settings[youtubeInfo][channelID]);

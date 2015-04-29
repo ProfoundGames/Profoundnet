@@ -208,6 +208,18 @@ h3{
     text-align: center;
 }
 
+.YoutubePlayer{
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.youtubePlayerHover{
+    margin-top: -20px;
+}
+
 .youtube{
     padding-left: 15%;
     padding-right: 15%;
