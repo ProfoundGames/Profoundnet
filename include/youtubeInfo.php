@@ -6,7 +6,7 @@
     $channelInfo = json_decode($channelInfo);
     $channelUploadID = $channelInfo->items[0]->contentDetails->relatedPlaylists->uploads;
     
-    $channelUploads = file_get_contents('https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=5&playlistId=' . $channelUploadID . '&key='. $settings[youtubeInfo][devKey]);
+    $channelUploads = file_get_contents('https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults='. $settings[youtubeInfo][amountOfItems] .'&playlistId=' . $channelUploadID . '&key='. $settings[youtubeInfo][devKey]);
     $channelUploads = json_decode($channelUploads);   
     $channelUploadItems = $channelUploads->items;
     
