@@ -25,7 +25,7 @@
                             <div class="row container youtubeContainer" style="width: 100%; max-width: none;">
                                 <h3 class="header" style="height: auto !important;">'. $value->snippet->title .'</h3>
                                <div class="videoWrapper">
-                                    <iframe class="YoutubePlayer YoutubePlayer'. $value->snippet->resourceId->videoId .'" width="640" height="390" src="http://www.youtube.com/embed/'. $value->snippet->resourceId->videoId .'?controls=2" frameborder="0" allowfullscreen controls=0></iframe>
+                                    <iframe class="YoutubePlayer YoutubePlayer'. $value->snippet->resourceId->videoId .'" width="1920" height="1080" src="http://www.youtube.com/embed/'. $value->snippet->resourceId->videoId .'?controls=2" frameborder="0" allowfullscreen controls=0></iframe>
                                 </div>
                             </div>
                         </div>
