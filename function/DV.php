@@ -16,31 +16,50 @@ class DV {
     var $menu = array(
         array(
             'name' => "Home",
-            'url' => "/"
+            'url' => "/",
+            'title' => "Home"
         ),
         array(
             'name' => "Youtube",
-            'url' => "/youtube/"
+            'url' => "/youtube/",
+            'title' => "Youtube"
         ),
         array(
             'name' => "Twitch",
-            'url' => "/twitch/"
+            'url' => "/twitch/",
+            'title' => "Twitch"
+        ),
+        array(
+            'name' => "Beam",
+            'url' => "/beam/",
+            'title' => "Beam"
         ),
         array(
             'name' => "Other projects",
-            'url' => "/otherprojects/"
+            'url' => "/otherprojects/",
+            'title' => "Other projects"
         ),
         array(
             'name' => "ownCloud Login",
-            'url' => "/owncloud/"
+            'url' => "/owncloud/",
+            'title' => "ownCloud"
         ),
         array(
             'name' => "Yourl Login",
-            'url' => "/s/admin/"
+            'url' => "/s/admin/",
+            'title' => "Yourl"
         ),
         
     );
     
+    function getTitle($param) {
+        
+        foreach ($this->menu as $value) {
+            if (trim($value['url'],'/') == $param) {
+                echo $value['title'];
+            }
+        }
+    }
     
     function genMenu() {
         foreach ($this->menu as $value) {
@@ -103,5 +122,7 @@ class DV {
             echo '<a href="' . $value['socialLink'] . '"><div class="socialFooter btn-floating btn-large blue-grey lighten-3"><i class="fa ' . $value['socialFA'] . ' ' . $value['socialLogoColor'] . '"></i></div></a>';
         }
     }
-
+    
+    
+    
 }

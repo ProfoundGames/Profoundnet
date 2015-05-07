@@ -1,8 +1,3 @@
-<?php
-    
-    $dv = new DV();
-    
-?>
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <div class="navbar-fixed menu hide">
     <nav>

@@ -16,13 +16,17 @@
  * 20-3-15 15:12: initial creation
  */
 
+$page = htmlspecialchars($_GET["page"]);
+
 require_once '/debug/Kint.class.php';
 
 include '/function/DV.php';
 
+$dv = new DV();
+
 ?>
 
-<title>Profound Net</title>
+<title> <?php $dv->getTitle($page) ?> | Profound Net</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
