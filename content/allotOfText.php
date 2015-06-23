@@ -1,4 +1,8 @@
 <p>
+    I'm Ian Wijma (aka Profound Games)<br>
+    and I'm an awesome dude from the internet
+</p>
+<p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales tristique cursus. Aliquam congue vitae enim quis vestibulum. Quisque sagittis velit sit amet nibh molestie tristique. Suspendisse aliquet ornare leo, sed tristique libero aliquet sed. Nam non facilisis est. Fusce ultrices ante eget arcu feugiat iaculis. Praesent eros nulla, porta quis laoreet nec, aliquam vitae magna. Morbi ac arcu sit amet elit egestas facilisis sit amet quis eros. Quisque gravida mauris aliquet ipsum sagittis, sit amet condimentum velit porttitor. Sed imperdiet lacus semper nibh sollicitudin bibendum sed sed neque. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum sit amet sem vitae turpis efficitur bibendum. Aliquam non metus venenatis, tristique neque quis, eleifend dolor. Donec faucibus justo sit amet sodales lobortis.
 
             Aenean pretium sem a metus viverra aliquet. Curabitur lobortis malesuada nisl non vulputate. Donec feugiat magna tortor, at lobortis ante consectetur ut. Proin fermentum et sapien vitae volutpat. Suspendisse id eros a nisl sagittis mollis at a massa. Fusce facilisis commodo nibh, et dapibus nibh tristique sit amet. Nunc rhoncus faucibus mi eu mollis. Sed ullamcorper efficitur ipsum a ullamcorper. Maecenas nec mauris mi. Ut pharetra euismod nisi quis volutpat. Cras elementum consequat luctus. In accumsan nec dui a lacinia. Nulla tempus, tortor a pellentesque elementum, velit lacus varius ligula, a scelerisque nibh enim sed libero. Ut odio odio, consequat in odio nec, placerat lobortis turpis.
