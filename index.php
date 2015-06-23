@@ -2,14 +2,12 @@
     <?php include '/include/head.php'; ?>
 </head>
 
-<body class="teal">
+<body class="notScrolled">
     
-    <header>
-        
-    </header>
+    <?php include '/include/header.php'; ?>
     
-    <div id="content teal">
-        
+    <div id="content" style="display: none;">
+        <?php include '/content/allotOfText.php'; ?>
     </div>
     
     <footer>

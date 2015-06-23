@@ -1,11 +1,14 @@
 <?php
     $css = array(
         'materialize.min',
+        'headerEffects.min',
+        'default',
     );
     
     $jScript = array(
         'jquery-2.1.4.min',
         'materialize.min',
+        'default',
     );
     
     foreach ($jScript as $value) {
@@ -16,6 +19,7 @@
 
  foreach ($css as $value) {
     ?>
-<script src="/css/<?= $value ?>.css"></script>
+<link href="/css/<?= $value ?>.css" rel="stylesheet" type="text/css"/>
  <?php } ?>
 
+<link href="/css/default.css
