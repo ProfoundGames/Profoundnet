@@ -7,7 +7,7 @@
     <?php include '/include/header.php'; ?>
     
     <div id="content">
-        <?php include '/content/allotOfText.php'; ?>
+        <?php //include '/content/allotOfText.php'; ?>
     </div>
     
     <footer>
