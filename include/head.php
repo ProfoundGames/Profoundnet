@@ -1,11 +1,10 @@
     
 <title>Ian Wijma (Profound Games)</title>
-<meta name=viewport content="width=device-width, initial-scale=1">
-
+<meta name=viewport content="width=device-width, initial-scale=1, user-scalable=no">
+<link rel="icon" type="image/ico" href="/images/favicon.ico">
 <?php
     $css = array(
         'materialize.min',
-        'headerEffects.min',
         'default',
     );
     

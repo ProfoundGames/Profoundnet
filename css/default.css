@@ -1,14 +1,28 @@
-.outerDiv{
-    
+header{
     position: fixed;
-    
+    top: 0;
 }
 
 body header{
     text-align: center;
     width: 100%;
-    height: 100%;
     position: fixed;
+}
+
+body.scrolled #content{
+    margin-top: 14em;
+}
+
+body.notScrolled header{
+    height: 100%;
+    -webkit-transition: height .5s;
+    transition: height .5s;
+}
+
+body.scrolled header{
+    height: 10%;
+    -webkit-transition: height .5s;
+    transition: height .5s;
 }
 
 body header .row{
@@ -34,11 +48,36 @@ header > .valign-wrapper{
 }
 
 body header img{
-    width: 200px;
-    height: 200px;
     border-radius: 50%;
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
+}
+
+body.notScrolled .meImg img{
+    width: 200px;
+    height: 200px;
     -webkit-transition: all .5s;
     transition: all .5s;
+}
+
+body.scrolled .meImg img{
+    margin-top: 23px;
+    width: 50px;
+    height: 50px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+body.notScrolled .meImg{
+    padding-right: 0%;
+    -webkit-transition: padding-right .5s;
+    transition: padding-right .5s;
+}
+
+body.scrolled .meImg{
+    padding-right: 100%;
+    -webkit-transition: padding-right .5s;
+    transition: padding-right .5s;
+    -webkit-transition-delay: .5s;
+    transition-delay: .5s;
 }

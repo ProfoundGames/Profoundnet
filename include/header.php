@@ -4,7 +4,7 @@
         <div class="row">
             
             
-            <div class="col s12 m6 right-align">
+            <div class="col s12 m6 meImg right-align">
                 <img src="/images/me.png" alt=""/>
             </div>
             

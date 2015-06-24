@@ -1,3 +1,9 @@
+<?php
+    if (!empty(htmlspecialchars($_GET["p"]))) {
+        $page = htmlspecialchars($_GET["p"]);
+    }
+?>
+
 <head>
     <?php include '/include/head.php'; ?>
 </head>
@@ -7,7 +13,16 @@
     <?php include '/include/header.php'; ?>
     
     <div id="content">
-        <?php //include '/content/allotOfText.php'; ?>
+        <?php 
+        
+        if (empty($page)) {
+            include '/content/home.php';
+        } elseif( $page == "test" ){
+            include '/content/allotOfText.php';
+        } else{
+            include '/content/' . $page . '.php';
+        }
+         ?>
     </div>
     
     <footer>
