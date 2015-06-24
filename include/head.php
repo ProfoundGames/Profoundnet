@@ -1,3 +1,7 @@
+    
+<title>Ian Wijma (Profound Games)</title>
+<meta name=viewport content="width=device-width, initial-scale=1">
+
 <?php
     $css = array(
         'materialize.min',
@@ -22,4 +26,3 @@
 <link href="/css/<?= $value ?>.css" rel="stylesheet" type="text/css"/>
  <?php } ?>
 
-<link href="/css/default.css
