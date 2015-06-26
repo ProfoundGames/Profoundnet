@@ -45,6 +45,14 @@ header > .valign-wrapper{
     header .row .col{
         text-align: center;
     }
+    
+    blockquote {
+        border-left: none !important;
+    }
+    
+    body.notScrolled .meImg img{
+        margin-right: 0px !important;
+    }
 }
 
 body header img{
@@ -54,8 +62,9 @@ body header img{
 }
 
 body.notScrolled .meImg img{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
+    margin-right: 25px;
     -webkit-transition: all .5s;
     transition: all .5s;
 }
@@ -64,6 +73,7 @@ body.scrolled .meImg img{
     margin-top: 23px;
     width: 50px;
     height: 50px;
+    margin-right: 0px;
     -webkit-transition: all .5s;
     transition: all .5s;
 }
@@ -80,4 +90,8 @@ body.scrolled .meImg{
     transition: padding-right .5s;
     -webkit-transition-delay: .5s;
     transition-delay: .5s;
+}
+
+blockquote {
+  border-left: 5px solid #546e7a;
 }
